@@ -208,7 +208,7 @@ export function SideBar(props: {
           icon={<PluginIcon />}
           text={shouldNarrow ? undefined : Locale.Plugin.Name}
           className={styles["sidebar-bar-button"]}
-          onClick={() => showToast(Locale.WIP)}
+          onClick={() => window.open("https://ai.spaceaitool.dev/", "_blank")}
           shadow
         />
       </div>

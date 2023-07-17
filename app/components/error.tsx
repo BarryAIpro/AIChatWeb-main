@@ -49,11 +49,11 @@ export class ErrorBoundary extends React.Component<any, IErrorBoundaryState> {
 
           <div style={{ display: "flex", justifyContent: "space-between" }}>
             <a href={ISSUE_URL} className="report">
-              <IconButton
+              {/* <IconButton
                 text="Report This Error"
-                icon={<GithubIcon />}
+                // icon={<GithubIcon />}
                 bordered
-              />
+              /> */}
             </a>
             <IconButton
               icon={<ResetIcon />}
