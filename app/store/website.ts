@@ -57,7 +57,7 @@ export const useWebsiteConfigStore = create<WebsiteConfigStore>()(
       chatPageSubTitle: "",
       sensitiveWordsTip: "",
       balanceNotEnough: "",
-      hideGithubIcon: false,
+      hideGithubIcon: true,
       botHello: "",
       availableModelNames: [],
 
